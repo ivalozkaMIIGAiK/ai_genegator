@@ -326,7 +326,7 @@ if st.session_state.get("generated_image") and st.session_state.get("image_data"
     st.image(
         st.session_state.image_data, 
         caption="Сгенерированное изображение", 
-        use_column_width=True
+        use_container_width=True
     )
     st.download_button(
         label="Скачать изображение",
