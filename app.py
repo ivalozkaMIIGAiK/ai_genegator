@@ -143,7 +143,7 @@ for i, tab in enumerate(tabs):
             # Создаем радио-кнопки с опцией "Не выбрано"
             radio_options = ["Не выбрано"] + options
             selected_index = st.radio(
-                f"Выберите {display_categories[i].lower()}:", 
+                f"Выберите {categories[i].lower()}:", 
                 radio_options,
                 index=0 if current_selection is None else index + 1,
                 key=f"radio_{category_key}_{i}"
