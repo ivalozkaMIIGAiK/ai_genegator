@@ -88,7 +88,7 @@ def init_session_state():
         st.session_state.generated_image = False
 
 # Категории интерфейса
-categories = ["Направление (стиль)", "Жанр", "Освещение", "Техника", "Цвета"]
+categories = ["Направление", "Жанр", "Освещение", "Техника", "Цвета"]
 category_keys = ["style", "genre", "lighting", "technique", "color"]
 display_categories = ["Направление (стиль)", "Жанр", "Освещение", "Техника", "Цвета"]
 
